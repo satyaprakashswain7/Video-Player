@@ -1,0 +1,16 @@
+{
+  "name": "projectvideo",
+  "version": "1.0.0",
+  "description": "a video player like youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "video",
+    "player",
+    "youtube"
+  ],
+  "author": "satya prakash swain",
+  "license": "ISC"
+}

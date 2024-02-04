@@ -1,0 +1,1 @@
+This is a project where we create a video player with full functionalities
