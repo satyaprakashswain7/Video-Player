@@ -15,7 +15,7 @@ const registerUser = asyncHandler( async (req,res) => {
     }
 
     //check if user already exists
-    const existedUser = User.findOne({
+    const existedUser = await User.findOne({
         $or : [{ username },{ email }]
     })
     if(existedUser){
